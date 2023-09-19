@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_general_reels",
+  "info": {
+    "displayName": "reel"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "technologies": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

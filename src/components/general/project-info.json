@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_general_project_infos",
+  "info": {
+    "displayName": "projectInfo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "tag": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "general.link"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}
